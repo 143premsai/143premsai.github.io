@@ -166,7 +166,7 @@ a:after {
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
-	background-position: center center;
+	background-position: 0 0;
 	min-height: 100%;
 	width: 100%;
 	
