@@ -1,3 +1,3 @@
 # 143premsai.github.io
 
-# This contains of my portfolio site files
+# This contains Files of my portfolio site
