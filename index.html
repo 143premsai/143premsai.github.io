@@ -17,6 +17,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+    
     <link rel="stylesheet" href="assets/css/mystyle.css">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
@@ -35,35 +36,38 @@
 
 <body>
     <!-- Navbar Details -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark   navbar-custom">
-
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-custom">
+        <a href="" class="navbar-brand"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto  ">
-                <li class="nav-item" ">  
+        <div class="collapse navbar-collapse   " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto float-right text-left  ">
+                <li class="nav-item" " title="About">  
                     <a class=" nav-link " href=" #about"><i class="fa fa-user-tie"
                         aria-hidden="true"></i></a>
 
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="#" title="E-2-E" id="navbarDropdown" role="button" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <i class="fa fa-book" aria-hidden="true"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#Experience"><i class="fa fa-keyboard" aria-hidden="true"></i><span
-                                style="padding-left:9%">Experience</span></a>
-                        <a class="dropdown-item" href="#Education"><i class="fa fa-user-graduate " style="padding-left:2%"
-                                aria-hidden="true"></i><span style="padding-left:10%">Education</span></a>
-
+                        <a class="dropdown-item " href="#Experience"><i class="fa fa-laptop" aria-hidden="true"></i><span style="padding-left:5%"
+                                >Experience</span></a>
+                        <a class="dropdown-item" href="#Education"><i class="fa fa-user-graduate "
+                                aria-hidden="true"></i><span style="padding-left:5%">Education</span></a>
+                        <a href="#Awards" class="dropdown-item"><i class="fa fa-award"></i><span style="padding-left:5%">Awards</span></a>
+                        <a href="#Skills" class="dropdown-item"><i class="fab fa-angellist"></i><span style="padding-left:5%">Skills</span> </a>
+                        
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link"><i class="fa fa-envelope"></i></a>
+                    <a href="#contact" class="nav-link" title="Contact"><i class="fa fa-envelope"></i></a>
 
                 </li>
 
@@ -79,15 +83,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6" style="text-align:left">
-                            <h1>Prem Sai Krishna<br>Kandagattla</h1>
+                            <h1>Prem Sai Krishna<br>Kandagattla <span style="font-size: small">[ B.Tech - CS ]</span> </h1>
                             <hr style="background-color:white">
-                            <h3>Full Stack Developer | B.Tech <sub>CSE</sub> </h3>
+                            <h5>
+                            <ul style="list-style-type: none;padding:0;" >
+                                <li><li class="fa fa-desktop" ></li> Full Stack Developer</li>
+                                <li> <a title="Certificate" style="text-decoration: none;color: yellow" target="_blank" href="https://www.youracclaim.com/badges/674fbfd0-5f24-4288-9f06-c4464005d11c/linked_in_profile"><i class="fa fa-newspaper"></i></a>  Microsoft Technology Associate (Python)</li>
+                                
+                            </ul>
+                        </h5>
                         </div>
-
                         <div class="col-sm-6">
-                            <img src="assets/img/header-bg.jpg" class="img-fluid" style="max-width:70%;border: 2px solid #5c7da6;
+                                
+                            <img src="assets/img/header-bg.jpg" title="Prem Sai Krishna" class="img-fluid" style="cursor: none; max-width:70%;border: 2px solid #5c7da6;
                             border-radius: 4px;opacity: 0.95;"
                                 alt="">
+                            
+                    
+                            
                         </div>
                     </div>
                     <!--/.row -->
@@ -157,7 +170,7 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                 </div>
             </div>
         </section>
-        <section id='Education'>
+        <section id='Education' >
 
             <div class="container desc">
                 <div class="row">
@@ -169,7 +182,7 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                     </div>
                     <div class="col-sm-7">
                         <div class="row" style="padding-top:5%">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <p>
                                     <t>Bachelor Degree in Computer science</t><br />
                                     <a href="https://www.kluniversity.in/" style="color:white;text-decoration: none">
@@ -178,7 +191,7 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                                     <i>4 Years Course</i>
                                 </p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-sm-3">
                                 <p style="padding-top: 10%">
                                         
                                     <imp>
@@ -188,14 +201,14 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <p>
                                     <t>Intermediate (MPC)</t><br />
                                     <i class="fa fa-globe-asia    "></i> NRI jr.college<br />
                                     <i>2 Years Course</i>
                                 </p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-sm-3">
                                 <p style="padding-top: 10%">
                                     
                                     <imp>
@@ -205,14 +218,14 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-sm-6">
                                 <p >
                                     <t>Secondary Education</t><br />
                                     <i class="fa fa-school    "></i> Bhashyam public school<br />
 
                                 </p>
                             </div>
-                            <div class="col-lg-3">
+                            <div class="col-sm-3">
                                 <p style="padding-top: 10%">
                                     
                                     <imp>
@@ -225,152 +238,105 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                 </div>
             </div>
         </section>
-
-    </section>
-
-    <section id='Awards'>
-        <!--AWARDS DESCRIPTION -->
-	<div class="container desc">
-            <div class="row">
-                    <div class="col-lg-2 col-lg-offset-1">
-                        <h5>AWARDS</h5>
+        <section id="Awards" style="padding-top: 5%">
+                <div class="container desc">
+                        <div class="row">
+                                <div class="col-sm-1"></div>
+                                <div class="col-sm-2">
+                                    <h5>AWARDS</h5>
+                                </div>
+                                <div class="col-sm-2"></div>
+                                <div class="col-sm-7">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                                <p><t>Best Innovative Web Designer</t><br/>
+                                                    Campusify Technologies <br/>
+                                                </p>
+                                        </div>
+                                        <div class="col-sm-6">
+                                                <p>
+                                                     <imp> <small>JUNE 2015</small></imp>
+                                                </p>
+                                            </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                    
+                        </div><!--/.row -->
+                        
                     </div>
-                    <div class="col-lg-6">
-                        <p><t>Best Innovative Web Designer</t><br/>
-                            Campusify Technologies <br/>
-                        </p>
-                    </div>
-                    <div class="col-lg-3">
-                        <p><sm>JUNE 2015</sm></p>
-                    </div>
-        
-            </div><!--/.row -->
-            
-        </div><!--/.container -->
-        
-        
-        <!--SKILLS DESCRIPTION -->
-        <div id="skillswrap">
-            <div class="container">
-                <div class="row">
-                        <div class="col-lg-2 col-lg-offset-1">
-                            <h5>SKILLS</h5>
-                        </div>
-                        <div class="col-lg-3 centered">
-                            <canvas id="javascript" height="130" width="130"></canvas>
-                            <p>Java</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 70,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 30,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-                            </script>
-                        </div>
-                        <div class="col-lg-3 centered">
-                            <canvas id="bootstrap" height="130" width="130"></canvas>
-                            <p>Bootstrap</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 60,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 40,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
-                            </script>
-                        </div>
-                        <div class="col-lg-3 centered">
-                            <canvas id="wordpress" height="130" width="130"></canvas>
-                            <p>Wordpress</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 65,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 35,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-                            </script>
+        </section>
+        <section id='Skills'>
+                <!--SKILLS DESCRIPTION -->
+                <div id="skillswrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                                <div class="col-sm-1">
+                                    <h5 style="padding-top:15%">SKILLS</h5>
+                                </div>
+                                
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-6">
+                                    
+                                    <div class="row">
+                                            
+                                            <div class="col-sm-4">
+                                                <i class="fab fa-python"></i>
+                                                <span>Python</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <i class="fab fa-java"></i>
+                                                <span>Java</span>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-php"></i>
+                                                    <span>PHP</span>
+                                                </div>
+                                            
+                                            
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-html5"></i>
+                                                    <span>HTML | CSS</span>
+                                                </div>
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-angular"></i>
+                                                    <span>Angular</span>
+                                                </div>
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-js"></i>
+                                                    <span>Java Script</span>
+                                                </div> 
+                                            
+                                    </div>
+                                    <div class="row">
+                                            <div class="col-sm-4">
+                                                    <i class="fa fa-database"></i>
+                                                    <span>SQL</span>
+                                                </div>
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-github"></i>
+                                                    <span>Git</span>
+                                                </div>
+                                            <div class="col-sm-4">
+                                                    <i class="fab fa-jenkins"></i>
+                                                    <span>Jenkins</span>
+                                                </div>
+                                            
+                                    </div>
+                                    
+                                </div>
                         </div>
                         
-                        <div class="col-lg-3 col-lg-offset-3 centered">
-                            <canvas id="html" height="130" width="130"></canvas>
-                            <p>HTML/CSS</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 90,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 10,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
-                            </script>
-                        </div>
-                        <div class="col-lg-3 centered">
-                            <canvas id="photoshop" height="130" width="130"></canvas>
-                            <p>Photoshop</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 70,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 30,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-                            </script>
-                        </div>
-                        <div class="col-lg-3 centered">
-                            <canvas id="illustrator" height="130" width="130"></canvas>
-                            <p>Android application</p>
-                            <br>
-                            <script>
-                                var doughnutData = [
-                                        {
-                                            value: 60,
-                                            color:"#1abc9c"
-                                        },
-                                        {
-                                            value : 40,
-                                            color : "#ecf0f1"
-                                        }
-                                    ];
-                                    var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
-                            </script>
-                        </div>
-    
-                </div><!--/.row -->
-                
-            </div><!--/.container -->
-        </div><!--/ #skillswrap -->
+                    </div>
+                </div>
+            </section>
     </section>
+
+    
 
     <section id="contact" name="contact"></section>
     <!--FOOTER DESCRIPTION -->
@@ -378,23 +344,24 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
         <div class="container">
 
             <div class="row">
-
-                <div class="col-lg-2 col-lg-offset-1">
+                <div class="col-sm-1"></div>    
+                <div class="col-sm-2" style="padding-top:5%">
                     <h5>CONTACT</h5>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
                     <p>
-                        <t>Email</t><br />
-                        <a href="mailto:143premsai@gmail.com">143premsai@gmail.com</a> <br />
+                        <i class="fa fa-at"></i><t>Email</t><br />
+                        <a style="color: wheat" href="mailto:143premsai@gmail.com">143premsai@gmail.com</a> <br />
                     </p>
-                    <p>
+                    <!-- <p>
                         <t>Address</t><br />
                         Flat number: 301,&nbsp; Bommarillu apartments, <br />
                         Vasavi nagar,&nbsp;
                         Guntur, <br>Andhra Pradesh. <br />Pincode : 522001.
-                    </p>
-                    <p>
-                        <t>Phone</t><br />
+                    </p> -->
+                    <p> 
+                        <i class="fa fa-mobile-alt"></i><t>Phone </t><br />
                         +91 9949625131 <br />
                     </p>
                 </div>
@@ -403,13 +370,10 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
                         <sm>SOCIAL LINKS</sm>
                     </p>
                     <p>
-                        <a href="https://in.linkedin.com/in/143premsai"><i class="icon-linkedin"></i></a>
-                        <a href="https://www.facebook.com/143premsai"><i class="icon-facebook"></i></a>
-                        <a href="https://twitter.com/143premsai"><i class="icon-twitter"></i></a>
-                        <a href="https://dribbble.com/143premsai"><i class="icon-dribbble"></i></a>
-
-
-
+                        <a href="https://in.linkedin.com/in/143premsai"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/143premsai"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/143premsai"><i class="fab fa-twitter"></i></a>
+                        <a href="https://dribbble.com/143premsai"><i class="fab fa-dribbble"></i></a>
                     </p>
                 </div>
             </div>
@@ -421,9 +385,9 @@ c13.7,12.8,26.1,19.5,41.6,19.5s29.2-7.5,29.2-22.1c0-12.4-10.6-19.5-30.1-27.5c-18
 
     <div id="c">
         <div class="container">
-
-            <p>Created by PREM SAI KRISHNA KANDAGATTLA</p>
-
+            <span >Created by PREM SAI KRISHNA KANDAGATTLA <i class="fa fa-bolt"></i>
+            Copyright <i class="far fa-copyright"></i> 2019</span>
+            
         </div>
     </div>
 
