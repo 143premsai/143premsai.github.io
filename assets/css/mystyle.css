@@ -47,7 +47,7 @@
 }
 
 #intro {
-	background: #2c3e50;
+	background:#2c3e50;
 	padding-top: 50px;
 	padding-bottom: 50px;
     color: white;
@@ -101,3 +101,54 @@
 .desc more {
 	color: #95a5a6;
 }      
+
+#skillswrap {
+	/* background: #2c3e50; */
+	padding-top: 8%;
+	padding-bottom: 60px;
+    /* color: white; */
+    text-align: left;
+}
+
+#skillswrap i, span{
+    font-size: larger;
+}
+
+#footwrap {
+	background: #2f2f2f;
+	padding-top: 5%;
+    padding-bottom: 50px;
+    
+}
+
+
+#footwrap p {
+	color: white;
+}
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	padding-right: 8px;
+	color: #1abc9c;
+}
+
+#c {
+	background: #222222;
+    padding-top: 15px;
+    padding-bottom: 1%;
+    color: white;
+    text-align: right;
+    margin-bottom: 0;
+}
+#c span{
+    font-size: small;
+    
+}
