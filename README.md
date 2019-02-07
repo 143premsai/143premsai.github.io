@@ -2,4 +2,4 @@
 
 This contains files of my portfolio site
 
-This is developed purley by HTML, CSS ( Bootstrap framework)
+This is developed purley developed using HTML, CSS ( Bootstrap framework)
