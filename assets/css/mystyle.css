@@ -12,6 +12,14 @@
     color: black;
     
 }
+.myhover:hover {
+    text-decoration: underline;
+}
+.navbar-nav {
+    background: linear-gradient(to top right, #232e3a 20%, #c790ac 100%);    
+    border-radius: 8px;
+    
+}
 
 /* Background Cover */
 
